@@ -1,0 +1,25 @@
+Semana 1 - (25/11 - 29/11)
+
+Inteligencia artificial:
+	- É a tentativa de criar sistemas computacionais que desempenhem atividades normalmente associadas ao intelecto humano
+
+	- Programação tradicional: Program + Data -> Output
+	  Machine Learning: Data -> Output ---> Output + Data -> Model
+
+Machine Learning:
+	- Algoritmos de Machine Learning são aqueles capazes de aprender uma função (f) que (melhor) relaciona variáveis de entrada (x) a variáveis de saída (y)
+
+	- Divisões
+		Supervised Learning
+
+		Unsupervised Learning
+
+
+	Pattern Recognition and Machine Learning; C. Bishop
+
+Tratamento de dados:
+	- Utiliza-se pandas dataframes
+
+	- Formato padrão: csv
+
+	
