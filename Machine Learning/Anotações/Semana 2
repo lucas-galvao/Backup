@@ -1,0 +1,15 @@
+Semana 2 - (02/12 - 06/12)
+
+Regressão Logística:
+	- Modelo de classificação
+
+	- Matriz confusão
+		. Identifica os true positives(TP), true negatives(TN), false positives(FP) e false negatives(FN)
+
+	- Classificação
+		. Confirmed vs Predicted
+		. Precision (TP / (TP + FP))
+		. Recall (TP / (FN + TP))
+		. Accuracy ((TP + TN) / TOTAL)
+		. F1-Score (2 * (Precision * Recall) / (Precision + Recall))
+		. Support - Número de exemplos de cada classe
