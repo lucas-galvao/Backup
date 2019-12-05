@@ -1,4 +1,4 @@
-Semana 2 - (02/12 - 06/12)
+Semana 2 - (02/12 - 05/12)
 
 Regressão Logística:
 	- Modelo de classificação
@@ -13,3 +13,30 @@ Regressão Logística:
 		. Accuracy ((TP + TN) / TOTAL)
 		. F1-Score (2 * (Precision * Recall) / (Precision + Recall))
 		. Support - Número de exemplos de cada classe
+
+KNN:
+	- Classificação de acordo com a vizinhança
+
+	- Dado um K
+		. Calcula a distância de x até os outros exemplos
+		. Seleciona os K elementos mais próximos
+		. Atribui o valor de acordo com o elemento mais comum
+
+	- SKLearn StandardScaler
+		. Coloca as variáveis em escala para equilibrar os pesos
+
+	- SKlearn.neighbors impor KNeighborsClassifier
+
+	- KNN Regressor
+
+Clustering:
+	- K-means
+		. Distância em relação ao centroide do cluster
+		
+		. Algoritmo
+			- Cria um vetor com k centróides aleatoriamente
+			- Calcula a distância média de todos os pontos atrelados a cada centróide
+			- Atualiza a posição do centróide para o novo ponto
+
+		. Definição de k
+			- Método do cotovelo
