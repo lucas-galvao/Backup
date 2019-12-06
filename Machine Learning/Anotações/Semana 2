@@ -40,3 +40,31 @@ Clustering:
 
 		. Definição de k
 			- Método do cotovelo
+
+Árvores de Decisões:
+	- Regras facilmente traduzíveis para linguagem de negócios
+
+	- Fácil implementação com if/else
+
+	- Inicalmente criado para classificação depois estendido para regressão
+
+	- Algoritmo básico
+		. Selecionar melhor atributo A para dividir os dados
+		. Para cada valor de A, crie uma sub=árvore dividindo os dados atuais
+		. Caso critério de parada seja atingido volte ao passo 1
+
+	- Algoritmo não-linear e guloso
+
+	- Overfit vai ocorrer
+
+	- from sklearn import tree
+
+	- Ensemble Methods
+		. Bagging
+			- Treina cada modelo de forma independente utilicando bootstrap
+			- Random Forest: Pode ser treinado em paralelo
+
+		. Boosting
+			- Treina cada modelo iterativamente para mitigar os erros de modelos prévios
+			- Gradient-Boosted Trees: Treina apenas uma árvore por vez (sequencial)
+
