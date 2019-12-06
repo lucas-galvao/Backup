@@ -1,0 +1,5 @@
+Temas:
+	Applications: Arc-Black-Grape
+	Cursor: Bibata_classic
+	Icons: Arc-ICONS
+	Shell: U8.DARK
